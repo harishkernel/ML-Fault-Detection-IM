@@ -1,0 +1,13 @@
+# MATLAB & Simulink
+*.asv
+*.slxc
+slprj/
+simulink_cache.xml
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Local Python environments (if added later)
+.venv/
+__pycache__/
