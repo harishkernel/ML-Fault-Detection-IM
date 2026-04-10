@@ -1,7 +1,5 @@
 ### Phase 4: Complete Hardware-in-the-Loop (HIL) with LCD
 
-This is the ultimate capstone for your project report. Instead of just a colored LED or a Python script, you are using the industrial gold-standard (**MATLAB**) to run your pre-trained Support Vector Machine (`mySVM.mat`), and outputting the real-time AI classification flag directly to a hardware Edge HMI (Human-Machine Interface) utilizing an **LCD Display**.
-
 This directly proves the usefulness of Phase 1 (Training the SVM), Phase 2 (Extracting Features), and Phase 3 (MATLAB streaming).
 
 #### 1. Wire the 16x2 LCD to Arduino UNO
@@ -28,10 +26,6 @@ This directly proves the usefulness of Phase 1 (Training the SVM), Phase 2 (Extr
 MATLAB will now continuously generate vibration data, run the FFT code, pump the peak amplitude through your `mySVM.mat` model, and finally transmit a `0` or `1` character directly to the Arduino's LCD screen. 
 
 ---
-
-### What to write in your Project Report
-
-Add this section to `UGPROJECTREPORT_innovation_lab.docx`:
 
 ### 4. Hardware Implementation: Hardware-in-the-Loop Edge Intelligence Display
 
